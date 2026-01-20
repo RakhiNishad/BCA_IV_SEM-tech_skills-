@@ -1,6 +1,5 @@
-package Tach_skill_BCA;
-import java.util.Scanner;
-    // GIVEN AN ARRAY COUNT NUMBER OF ELEMents . HAVING ATLEAST ONE ELEM ,GRATER THEN ITS SELF
+package Tach_skill_BCA;  
+//QUESTION:- GIVEN AN ARRAY COUNT NUMBER OF ELEMents . HAVING ATLEAST ONE ELEM ,GRATER THEN ITS SELF
 //eg:- [-3 2 6 8 4 8 5]
 //observation:- for every max element there want be any element gater tham itself
                              //or
@@ -13,7 +12,6 @@ public class array
 {
     public static void main(String[] args) 
     {
-        Scanner sc=new Scanner(System.in);
         int arr[]={-3,2,6,8,4,8,5};
         int count =0;
         int max=0;
@@ -32,3 +30,4 @@ public class array
         System.out.println(count);
     }
 }
+
